@@ -3,58 +3,28 @@
     font-family: 'Source Code Pro', monospace;
 }
 
-.nav-div {
-    padding: 20px;
-    display: flex;
-    margin: 20px 300px;
-    margin-left: 408px;
-    max-width: 50%;
-    justify-content: center;
-    border-bottom: 4px solid #75f9dafd;
-    border-top: 2px solid #5ac4abfd;
+.navbar{
+    margin: 30px;
     border-radius: 50px;
-    position: sticky;
+    border-bottom:7px solid #69dec2fd;
+    border-top:3px solid #55b39dfd;
+    border-left: 5px solid #53bba3fd;
+    border-right: 5px solid #53bba3fd;
 
 }
-
-
-
-.navbar {
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    color: white;
-}
-
-.navbar li {
-    list-style: none;
-    display: inline;
-}
-
-.nav-list li a {
-    text-decoration: none;
-    color: white;
-    padding: 0px 25px;
-    font-size: 1.3rem;
-
-}
-
-.nav-list li a:hover {
-    color: aquamarine;
+.contents li a{
+    font-size: 1.5rem;
 }
 
 .content {
-    display: flex;
-    padding: 70px;
+  margin-top: 200px;
 }
 
 .content-left {
-    max-width: 50%;
+   
 
     color: white;
-    margin-left: 90px;
+    margin-top: 100px;
 
 
 }
